@@ -1,0 +1,6 @@
+HUSTLE CITY 3D AUDIO SETUP
+
+public/audio/intro.effect.mp3: plays once when a new game is started.
+public/audio/background.instrumental.effect.mp3: loops during gameplay after the intro finishes.
+
+The background track uses the existing BackgroundMusic component. The generated procedural hip-hop beat is stopped when the game starts so it does not overlap the provided instrumental. If browser autoplay blocks the intro, the game falls back to gameplay music.
