@@ -25,7 +25,7 @@ import {
   MenuOverlay,
   Overlay,
   useIsMobile,
-} from './utils/helper';
+} from './utils';
 import BackgroundMusic from './utils/BackgroundMusic';
 import { usePlayground, usePlaygroundGameLifecycle } from './utils/usePlayground';
 import {
